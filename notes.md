@@ -38,3 +38,40 @@ anonymous:
 ----------
 IIFE(pattern)
 ```
+
+# copy by value:
+
+cons q1=[...q2]
+ex:
+var q1=[1,2,3]
+var q2=[...q1]
+var q3=[60,...q1,90,40]
+console.log(q3)
+\\o/p:60,1,2,3,90,40
+\\t3=[...t2,...t1]
+
+# different for loops
+
+## for loop:
+
+```js
+for(let i=0;i<marks.length;i++)
+    {
+        console.log("index: ",i,"mark",marks[i]);
+    }
+
+
+for in loop:
+    -----------
+    for(let idx in marks)
+        {
+            console.log("index: ",idx,"mark",marks[idx]);
+        }
+
+for of loop:
+ ------------
+ for(let idx of marks)
+            {
+                console.log("mark",marks);
+            }
+```
