@@ -76,7 +76,7 @@ for(let item of books)
        
 
         console.log(a);
-        */
+        
         const movies = [
             { title: "Inception", ratings: [5, 4, 5, 4, 5] },
             { title: "Interstellar", ratings: [5, 5, 4, 5, 4] },
@@ -104,6 +104,35 @@ for(let item of books)
            
             }
                 console.log(k);
+                
+                // Task 5
+// const movieUrl = (domain, genre, year) => {
+//   return "http://" + domain + "?genere=" + genre + "&year=" + year;
+// };
+
+// console.log(movieUrl("imdb.com", "thriller", 2020));
+
+const movieUrl=(domain,genre,year)=>{
+  return `http://${domain}genere=${genre}&year= ${year}`;
+};
+*/const cart = [
+  { name: "Apple", price: 0.5, quantity: 4 },
+  { name: "Banana", price: 0.25, quantity: 6 },
+];
+
+const newItems = [
+  { name: "Cherry", price: 0.75, quantity: 5 },
+  { name: "Date", price: 1, quantity: 3 },
+];
+
+let total=0;
+for(let i of allitems)
+  {
+    const {price,quantity}=i;
+    total+=price*quantity;
+  }
+  console.log(total);
+
             
           
 
