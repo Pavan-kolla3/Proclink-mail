@@ -157,15 +157,24 @@ refer falsy table:https://developer.mozilla.org/en-US/docs/Glossary/Falsy
 "this is pavan".split(" ");//[this,is,pavan]
 "this is pavan".split("");//[t,h,i,s,i,s,p,a,v,a,n]
 
+# june-03
 
+# the software devlopment life cycle
 
+SDLC image
+.Figma is used to design the applications
+colors.com -is used to add color combinations for the web design
+ 6-phases of sdlc:
+ ----------------
+ 1.analysis
+ 2.design
+ 3.devlopment
+ 4.testing
+ 5.deployment
+ 6.maintenance
 
+ # water fall vs Agile
 
-
-
-
-
-
-
+![alt text](<Waterfall vs agile ss.png>)
 
 ```
